@@ -11,17 +11,24 @@ const mix = require('laravel-mix');
  |
  */
 
+mix.copy('resources/assets/admin/vendor/fontawesome-free/webfonts','public/admins/webfonts');
+mix.copy('resources/assets/admin/img','public/admins/img');
+mix.copy('resources/assets/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map','public/admins/js/bootstrap.bundle.min.js.map');
+
+mix.copy('resources/assets/admin/vendor/chartjs','public/admins/js/chartjs');
+
+
 mix.js('resources/js/app.js', 'public/js')
     .combine([
         'resources/assets/admin/vendor/jquery/jquery.min.js',
         'resources/assets/admin/vendor/bootstrap/js/bootstrap.bundle.min.js',
         'resources/assets/admin/vendor/jquery-easing/jquery.easing.min.js',
         'resources/assets/admin/js/sb-admin-2.min.js',
-    ], 'public/admin/js/sb-admin.js')
+    ], 'public/admins/js/sb-admin.js')
     .styles([
         'resources/assets/admin/vendor/fontawesome-free/css/all.min.css',
         'resources/assets/admin/css/sb-admin-2.min.css',
-        ],'public/admin/css/sb-admin.css')
+        ],'public/admins/css/sb-admin.css')
     .sourceMaps();
 mix.version()
     .browserSync('kurumsal.test');

@@ -1532,7 +1532,7 @@ function getAlpha(string) {
 // generators
 function hexString(rgba, a) {
    var a = (a !== undefined && rgba.length === 3) ? a : rgba[3];
-   return "#" + hexDouble(rgba[0]) 
+   return "#" + hexDouble(rgba[0])
               + hexDouble(rgba[1])
               + hexDouble(rgba[2])
               + (
@@ -20313,7 +20313,7 @@ var plugin_legend = {
 	/**
 	 * Backward compatibility: since 2.1.5, the legend is registered as a plugin, making
 	 * Chart.Legend obsolete. To avoid a breaking change, we export the Legend as part of
-	 * the plugin, which one will be re-exposed in the chart.js file.
+	 * the plugin, which one will be re-exposed in the chartjs file.
 	 * https://github.com/chartjs/Chart.js/pull/2640
 	 * @private
 	 */
@@ -20557,7 +20557,7 @@ var plugin_title = {
 	/**
 	 * Backward compatibility: since 2.1.5, the title is registered as a plugin, making
 	 * Chart.Title obsolete. To avoid a breaking change, we export the Title as part of
-	 * the plugin, which one will be re-exposed in the chart.js file.
+	 * the plugin, which one will be re-exposed in the chartjs file.
 	 * https://github.com/chartjs/Chart.js/pull/2640
 	 * @private
 	 */
