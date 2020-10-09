@@ -20,7 +20,7 @@ mix.js('resources/js/app.js', 'public/js')
     ], 'public/admin/js/sb-admin.js')
     .styles([
         'resources/assets/admin/vendor/fontawesome-free/css/all.min.css',
-        'resources/assets/admin/vendor/css/sb-admin-2.min.css',
+        'resources/assets/admin/css/sb-admin-2.min.css',
         ],'public/admin/css/sb-admin.css')
     .sourceMaps();
 mix.version()
