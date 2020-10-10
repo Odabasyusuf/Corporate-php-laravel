@@ -20,13 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e98803f3-7a77-494c-ae6e-fc8f023a855b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/partials/footer.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/partials/navbar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/partials/sidebar.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admins/datatables/dataTables.bootstrap4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admins/datatables/dataTables.bootstrap4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admins/datatables/dataTables.bootstrap4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admins/datatables/dataTables.bootstrap4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admins/datatables/jquery.dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admins/datatables/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admins/js/demo/chart-area-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admins/js/demo/chart-bar-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admins/js/demo/chart-pie-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admins/js/demo/datatables-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/routes/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/partials/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/partials/sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,21 +170,29 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1iUXdinhORLvEc3ssK3ThluffRM" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/admins/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/assets/admin/js" />
     <property name="nodejs_interpreter_path" value="$PROJECT_DIR$/../../bin/nodejs/node-v12/npm" />
     <property name="nodejs_package_manager_path" value="C:\laragon\bin\nodejs" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\kurumsal\public\admins\js" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\kurumsal\resources\assets\admin\js" />
       <recent name="C:\laragon\www\kurumsal\public\admins\js" />
       <recent name="C:\laragon\www\kurumsal\resources\assets\frontend" />
       <recent name="C:\laragon\www\kurumsal\resources\assets\admin" />
@@ -205,6 +223,9 @@
       <workItem from="1602249090796" duration="5744000" />
       <workItem from="1602254865366" duration="1679000" />
       <workItem from="1602272254534" duration="3984000" />
+      <workItem from="1602340572943" duration="3388000" />
+      <workItem from="1602344041841" duration="109000" />
+      <workItem from="1602360450373" duration="4778000" />
     </task>
     <servers />
   </component>
@@ -223,15 +244,22 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="586" y="203" key="#Inspections" timestamp="1602365180563">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="586" y="203" key="#Inspections/0.0.1920.1050@0.0.1920.1050" timestamp="1602365180563" />
     <state x="740" y="266" key="FileChooserDialogImpl" timestamp="1602085582245">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="266" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1602085582245" />
-    <state x="794" y="448" key="NewPhpFileDialog" timestamp="1602336449813">
+    <state x="794" y="448" key="NewPhpFileDialog" timestamp="1602342973159">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="794" y="448" key="NewPhpFileDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1602336449813" />
+    <state x="794" y="448" key="NewPhpFileDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1602342973159" />
     <state x="19" y="206" key="SettingsEditor" timestamp="1602335611094">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -240,9 +268,13 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="677" y="333" key="jetbrains.nodejs.interpreters-dialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601964283550" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1602337168276">
+    <state x="740" y="330" key="save.file.as.template.dialog" timestamp="1602343306785">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1602337168276" />
+    <state x="740" y="330" key="save.file.as.template.dialog/0.0.1920.1050@0.0.1920.1050" timestamp="1602343306785" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1602363569855">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1602363569855" />
   </component>
 </project>
