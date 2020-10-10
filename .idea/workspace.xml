@@ -20,13 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e98803f3-7a77-494c-ae6e-fc8f023a855b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/kurumsal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kurumsal.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/partials/footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/partials/navbar.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/partials/sidebar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.phpstorm.meta.php" beforeDir="false" afterPath="$PROJECT_DIR$/.phpstorm.meta.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_ide_helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/_ide_helper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/master.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +170,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public/admins/js" />
     <property name="nodejs_interpreter_path" value="$PROJECT_DIR$/../../bin/nodejs/node-v12/npm" />
     <property name="nodejs_package_manager_path" value="C:\laragon\bin\nodejs" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -228,17 +228,21 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="266" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1602085582245" />
-    <state x="794" y="448" key="NewPhpFileDialog" timestamp="1601988708957">
+    <state x="794" y="448" key="NewPhpFileDialog" timestamp="1602336449813">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="794" y="448" key="NewPhpFileDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601988708957" />
-    <state x="461" y="170" key="SettingsEditor" timestamp="1602085621358">
+    <state x="794" y="448" key="NewPhpFileDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1602336449813" />
+    <state x="19" y="206" key="SettingsEditor" timestamp="1602335611094">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="461" y="170" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1602085621358" />
+    <state x="19" y="206" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1602335611094" />
     <state x="677" y="333" key="jetbrains.nodejs.interpreters-dialog" timestamp="1601964283550">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="677" y="333" key="jetbrains.nodejs.interpreters-dialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601964283550" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1602337168276">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1602337168276" />
   </component>
 </project>
