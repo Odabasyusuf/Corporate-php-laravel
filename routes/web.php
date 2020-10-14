@@ -21,5 +21,14 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/admin','Admin\\AdminController@index')->name('admin');
-Route::get('/routes','Admin\\RouteController@index')->name('routes');
+// ->middleware(['auth'])
+Route::namespace('admin')->prefix('admin')->middleware(['auth'])->name('admin.')->group(function (){
+
+    Route::get('/admin','AdminController@index')->name('admin');
+    Route::get('/routes','RouteController@index')->name('routes');
+
+});
+
+
+//Route::get('/admin','Admin\\AdminController@index')->name('admin');
+//Route::get('/routes','Admin\\RouteController@index')->name('routes');
