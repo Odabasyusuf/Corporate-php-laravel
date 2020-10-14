@@ -21,6 +21,7 @@ class AdminController extends Controller
     {
         //return 'admin sayfası';
         //return view('admin.layouts.master');
+        //clearAllLogs();
         return view('admin.home');
     }
 
