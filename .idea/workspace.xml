@@ -20,21 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e98803f3-7a77-494c-ae6e-fc8f023a855b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/permission.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_10_16_133556_create_permission_tables.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3aebdd2a-2d7c-48eb-a780-623237a7e3e7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3aebdd2a-2d7c-48eb-a780-623237a7e3e7/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/590dbdbe-b661-4260-bbc5-0737dc5fcf25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/590dbdbe-b661-4260-bbc5-0737dc5fcf25/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/91c0341f-99ac-4acc-bbf3-649c835f47c7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/91c0341f-99ac-4acc-bbf3-649c835f47c7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kurumsal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kurumsal.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/PermissionTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/RoleTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/UserTableSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.phpstorm.meta.php" beforeDir="false" afterPath="$PROJECT_DIR$/.phpstorm.meta.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_ide_helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/_ide_helper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,14 +185,15 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\laragon\www\kurumsal\public\admins\js" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\laragon\www\kurumsal\resources\assets\admin\js" />
       <recent name="C:\laragon\www\kurumsal\public\admins\js" />
       <recent name="C:\laragon\www\kurumsal\resources\assets\frontend" />
       <recent name="C:\laragon\www\kurumsal\resources\assets\admin" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\kurumsal\app\Models" />
+      <recent name="C:\laragon\www\kurumsal\public\admins\js" />
     </key>
   </component>
   <component name="RunManager">
@@ -232,6 +228,8 @@
       <workItem from="1602712691639" duration="2279000" />
       <workItem from="1602783821561" duration="3198000" />
       <workItem from="1602850902961" duration="2256000" />
+      <workItem from="1602913830733" duration="944000" />
+      <workItem from="1602914844722" duration="1250000" />
     </task>
     <servers />
   </component>
@@ -274,6 +272,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="343" y="95" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1602789399595" />
+    <state x="665" y="78" width="590" height="894" key="find.popup" timestamp="1602914586951">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="665" y="78" width="590" height="894" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1602914586951" />
     <state x="677" y="333" key="jetbrains.nodejs.interpreters-dialog" timestamp="1601964283550">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
