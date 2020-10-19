@@ -20,20 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e98803f3-7a77-494c-ae6e-fc8f023a855b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/Control.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/InstallController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/install/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Helper/helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Helper/helpers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/admins/datatables/dataTables.bootstrap4.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/admins/datatables/dataTables.bootstrap4.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/admins/datatables/dataTables.bootstrap4.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admins/datatables/dataTables.bootstrap4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/admins/datatables/dataTables.bootstrap4.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/admins/datatables/dataTables.bootstrap4.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/admins/datatables/dataTables.bootstrap4.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admins/datatables/dataTables.bootstrap4.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/admins/datatables/jquery.dataTables.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admins/datatables/jquery.dataTables.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/admins/datatables/jquery.dataTables.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admins/datatables/jquery.dataTables.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/admins/js/demo/chart-area-demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admins/js/demo/chart-area-demo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/admins/js/demo/chart-bar-demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admins/js/demo/chart-bar-demo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/admins/js/demo/chart-pie-demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admins/js/demo/chart-pie-demo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/admins/js/demo/datatables-demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admins/js/demo/datatables-demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Control.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Control.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/partials/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/partials/sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +36,13 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="blade" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -234,6 +234,7 @@
       <workItem from="1602850902961" duration="2256000" />
       <workItem from="1602913830733" duration="944000" />
       <workItem from="1602914844722" duration="1250000" />
+      <workItem from="1603134174734" duration="1855000" />
     </task>
     <servers />
   </component>
@@ -268,6 +269,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="266" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1602085582245" />
+    <state x="295" y="0" key="FileDocumentManager.FileCacheConflict" timestamp="1603136176602">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="295" y="0" key="FileDocumentManager.FileCacheConflict/0.0.1920.1050@0.0.1920.1050" timestamp="1603136176602" />
     <state x="794" y="448" key="NewPhpFileDialog" timestamp="1602713845291">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -288,9 +293,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="330" key="save.file.as.template.dialog/0.0.1920.1050@0.0.1920.1050" timestamp="1602343306785" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1602677471772">
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1603135799323">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1602677471772" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1603135799323" />
   </component>
 </project>
