@@ -20,13 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e98803f3-7a77-494c-ae6e-fc8f023a855b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/InstallController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/install/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Helper/Helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/vars/system.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Helper/helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Helper/helpers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/RouteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/RouteController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Control.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Control.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/partials/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/partials/sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,6 +234,7 @@
       <workItem from="1602913830733" duration="944000" />
       <workItem from="1602914844722" duration="1250000" />
       <workItem from="1603134174734" duration="1855000" />
+      <workItem from="1603286948768" duration="3914000" />
     </task>
     <servers />
   </component>
@@ -273,6 +273,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="295" y="0" key="FileDocumentManager.FileCacheConflict/0.0.1920.1050@0.0.1920.1050" timestamp="1603136176602" />
+    <state x="749" y="243" key="NewPhpClassDialog" timestamp="1603287130556">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="749" y="243" key="NewPhpClassDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1603287130556" />
     <state x="794" y="448" key="NewPhpFileDialog" timestamp="1602713845291">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

@@ -1,0 +1,69 @@
+{
+    "default_role": {
+        "admin": {
+            "name": "Admin",
+            "description": "System Admin",
+            "is_main": 1,
+            "is_see_admin": 1,
+            "guard_name": "web"
+        },
+        "editor": {
+            "name": "Editor",
+            "description": "System Editor",
+            "is_main": 1,
+            "is_see_admin": 1,
+            "guard_name": "web"
+        },
+        "user": {
+            "name": "User",
+            "description": "User",
+            "is_main": 1,
+            "is_see_admin": 0,
+            "guard_name": "web"
+        }
+    },
+    "default_permission": {
+        "create_user": {
+            "name": "create_user",
+            "is_main": 1,
+            "guard_name": "web"
+        },
+        "edit_user": {
+            "name": "edit_user",
+            "is_main": 1,
+            "guard_name": "web"
+        },
+        "update_user": {
+            "name": "update_user",
+            "is_main": 1,
+            "guard_name": "web"
+        },
+        "delete_user": {
+            "name": "delete_user",
+            "is_main": 1,
+            "guard_name": "web"
+        },
+        "show_user": {
+            "name": "show_user",
+            "is_main": 1,
+            "guard_name": "web"
+        }
+    },
+    "default_users": {
+        "admin": {
+            "name": "Yusuf",
+            "email": "yusuf@asdf.com",
+            "password": "12345"
+        },
+        "editor": {
+            "name": "Ali",
+            "email": "ali@asdf.com",
+            "password": "12345"
+        },
+        "user": {
+            "name": "Veli",
+            "email": "veli@asdf.com",
+            "password": "12345"
+        }
+    }
+}
